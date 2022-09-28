@@ -1,0 +1,7 @@
+#Building Image:
+docker build -t "my-linux-with-java"
+docker tag my-linux-with-java ashishagarwal2101/my-linux-with-java:1.0.0
+docker push ashishagarwal2101/my-linux-with-java:1.0.0
+
+#Running Image:
+docker run -it -v ${pwd}:/usr/data -p 80:80 my-linux-with-java
