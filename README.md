@@ -1,2 +1,2 @@
 # DockerImages
-Creates Sample Docker Images
+Sample Docker Images
